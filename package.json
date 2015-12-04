@@ -1,0 +1,21 @@
+{
+    "name": "gitbook-plugin-gist",
+    "description": "Embed Gist into your book",
+    "main": "index.js",
+    "version": "0.0.0",
+    "engines": {
+        "gitbook": ">=2.0.0"
+    },
+    "dependencies": {
+        "change-case": "2.3.0"
+    },
+    "homepage": "https://github.com/GitbookIO/plugin-gist",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GitbookIO/plugin-gist.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/GitbookIO/plugin-gist/issues"
+    }
+}
