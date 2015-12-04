@@ -28,7 +28,7 @@ module.exports = {
                 .forEach(function(key) {
                     if (key == 'keywords') return;
 
-                    var optKey = 'data-gist-' + changeCase.snakeCase(key);
+                    var optKey = 'data-gist-' + changeCase.paramCase(key);
                     opts += optKey + '=' + JSON.stringify(block.kwargs[key]) + ' ';
                 });
 
